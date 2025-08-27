@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registraion From</title>
+</head>
+<body>
+    <form action="/action.php">
+        <fieldset>
+            <legend><h1>Student Registraion Form</h1></legend>
+            <div>
+                <label for="Roll no">Roll No : &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="number"><br><br>
+                </label> </div>
+               <div>
+                <label for="Student Name">Student Name :
+                    <input type="text" placeholder="First Name"> - <input type="text" placeholder="Last Name">
+                </label>
+            </div> <br>
+            <div>
+                <label for="Father's Name">Father's Name :
+                    <input type=" text" >
+
+                </label>
+            </div><br>
+            <div>
+                <label for="Date Of Birth">Date Of Birth :
+                    <input type="date" > ( <i>DD-MM-YYYY</i>) </label>
+            </div><br>
+            <div>
+                <label for="Mobile Number"> Mobile No :
+                <select name="country code" id=" code">
+                     <option value="+91">+91</option>
+                        <option value="+211">+211</option>
+                        <option value="+31">+31</option>
+                </select> - <input type="number">
+                      
+                </label>
+            </div><br>
+            <div>
+                <label for="Email">Email Id :
+                    <input type="email">
+                </label>
+
+            </div><br>
+            <div>
+                <label for="Password"> Password :
+                    <input type="password">
+                </label>
+            </div><br>
+            <div>
+                <label for="Gender"> Gender :
+                    <input type="radio" name="Gender" value="male" id="101">
+                    <label for="Male" id="101">Male</label>
+                     <input type="radio" name="Gender" value="female" id="102">
+                    <label for="female" id="102">Female</label>
+                </label>
+            </div> <br>
+            <div>
+                <label for="Department">Department : 
+                    <label for="cse">
+                        <input type="checkbox" name="Department" value="cse" id="201"> CSE
+                    </label>
+                      <label for="it">
+                        <input type="checkbox" name="Department" value="it" id="202"> IT
+                    </label>
+                      <label for="ece">
+                        <input type="checkbox" name="Department" value="ece" id="203"> ECE
+                    </label>
+                      <label for="civil">
+                        <input type="checkbox" name="Department" value="civil" id="204"> CIVIL
+                    </label>
+                      <label for="mech">
+                        <input type="checkbox" name="Department" value="mech" id="205"> MECH
+                    </label>
+                </label>
+            </div><br>
+            <div>
+                <label for="course">Course :
+                    <select name="course" id="105"> 
+                        <option value="" disabled selected> ----------------Select Your Course's -----------------</option>
+                        <option value="ba">B.A</option>
+                             <option value="btech">B.TECH</option>
+                                  <option value="barch">B.ARCH</option>
+                                       <option value="mbbs">MBBS</option>
+                    </select>
+                </label>
+            </div><br>
+            <div>
+                <label for="photo">Student Photo :
+                    <input type="file">
+                </label>
+            </div> <br>
+            <div>
+                <label for="city"> City :
+                    <select name="city" id="city">
+                        <option value="" disabled selected> ------Select Your City------</option>
+                        
+                        <option value="delhi"> Delhi</option>
+                        <option value="mumbai"> Mumbai</option>
+                        <option value="ranchi"> Ranhi</option>
+                        <option value="uri"> Uri</option>
+                        <option value="amrabati"> Amarabati</option>
+                    </select>
+                </label>
+            </div> <br>
+            <div>
+                <label for="address"> Address :
+                    <textarea name="address" id="1" ></textarea>
+                </label>
+            </div> <br> 
+            <div>
+                <button>
+                    Register
+                </button>
+            </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
